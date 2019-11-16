@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="5" name="Test(failed)">
+    <classes>
+      <class name="com.acme.testcase.TC001">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="runTC001" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.acme.testcase.TC001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
